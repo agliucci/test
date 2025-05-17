@@ -1,3 +1,8 @@
+// Title: Maximum Subarray
+            // Difficulty: Medium
+            // Language: TypeScript
+            // Link: https://leetcode.com/problems/maximum-subarray/
+
 function maxSubArray(nums: number[]): number {
     let maxSum = nums[0];
     let currSum = 0;
